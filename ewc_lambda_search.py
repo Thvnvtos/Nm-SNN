@@ -17,7 +17,7 @@ for tasks in [Evo, Test, D6]:
 	for n in [40, 98]:
 		best_acc = 0
 		best_lambda = 0
-		for ewc in range(0, 40, 20):
+		for ewc in range(0, 1500, 20):
 			standard_stdout = sys.stdout
 			outBuffer = StringIO()
 			sys.stdout = outBuffer
