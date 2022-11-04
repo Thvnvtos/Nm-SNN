@@ -1,0 +1,14 @@
+{
+	"data_path" : "/content/DVS128Gesture",
+	"seed" : 11,	
+
+	"n" : 40,
+	"batch_size" : 2,
+
+	"nf" : [32, 32],
+	"ks" : [3, 3],
+	"n_fc" : 128,	
+	
+	"T" : 16,
+	"lr" : 7e-2
+}
